@@ -9,6 +9,8 @@ if(firstPrompt>secondPrompt){
 } else if( secondPrompt>firstPrompt){
     greaterNumber.push(secondPrompt);
     
+}else {
+    greaterNumber.push('i numeri sono uguali')
 }
 console.log(greaterNumber);
 
