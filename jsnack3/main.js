@@ -7,6 +7,7 @@ for (let i = 0; i < 10; i++){
     numbPrompt = Number(prompt('scrivi un numero '))
     allNumb.push(numbPrompt)
     sum += allNumb[i]
+    /* sum = sum + allNumb[i] */
     
     
 }
